@@ -7,7 +7,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/quiz/:tech/:level" element={<QuestionsPage />} />
+        <Route path="/questions/:tech/:level" element={<QuestionsPage />} />
       </Routes>
     </BrowserRouter>
   );
