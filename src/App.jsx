@@ -4,10 +4,10 @@ import QuestionsPage from "@/pages/QuestionsPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/quiz">
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/questions/:tech/:level" element={<QuestionsPage />} />
+        <Route path="/:tech/:level" element={<QuestionsPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -37,7 +37,7 @@ export default function HomePage() {
 
   const handleLevelSelect = (level) => {
     setOpen(false);
-    navigate(`/quiz/${selectedTech.slug}/${level.id}`);
+    navigate(`/${selectedTech.slug}/${level.id}`);
   };
 
   return (
