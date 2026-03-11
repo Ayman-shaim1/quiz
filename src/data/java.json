@@ -1,0 +1,566 @@
+{
+  "topic": "Java",
+  "levels": [
+    {
+      "id": "beginner",
+      "name": "Débutant",
+      "description": "Concepts et syntaxe Java de base",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Quelle est la bonne façon de déclarer une variable qui stocke un entier en Java ?",
+          "options": ["int x = 5;", "integer x = 5;", "var x: int = 5;", "number x = 5;"],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "question": "Quel mot-clé est utilisé pour créer une nouvelle instance d'une classe ?",
+          "options": ["create", "new", "instance", "make"],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "Quel est le point d'entrée d'une application Java ?",
+          "options": ["méthode main()", "méthode start()", "méthode run()", "méthode init()"],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "Lequel de ceux-ci est un identifiant Java valide ?",
+          "options": ["2variable", "my-variable", "myVariable", "class"],
+          "correct": 2
+        },
+        {
+          "id": 5,
+          "question": "Que signifie le mot-clé 'void' utilisé comme type de retour ?",
+          "options": ["Retourne null", "Ne retourne rien", "Retourne le type void", "Retourne une chaîne vide"],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "question": "Quel type primitif est utilisé pour stocker les valeurs vrai/faux ?",
+          "options": ["int", "bool", "boolean", "bit"],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "question": "Quelle est la valeur par défaut d'une variable int non initialisée dans une classe ?",
+          "options": ["0", "null", "undefined", "garbage"],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Quel opérateur est utilisé pour la concaténation de chaînes en Java ?",
+          "options": ["+", "concat", "&", "append"],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "question": "Quelle est la classe parente de toutes les classes en Java ?",
+          "options": ["Super", "Parent", "Object", "Base"],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "question": "Quel modificateur d'accès rend un membre visible uniquement dans sa propre classe ?",
+          "options": ["public", "protected", "private", "package"],
+          "correct": 2
+        },
+        {
+          "id": 11,
+          "question": "Quel mot-clé est utilisé pour hériter d'une classe ?",
+          "options": ["inherits", "extends", "implements", "superclass"],
+          "correct": 1
+        },
+        {
+          "id": 12,
+          "question": "Lequel de ceux-ci N'EST PAS un type primitif en Java ?",
+          "options": ["int", "double", "String", "char"],
+          "correct": 2
+        },
+        {
+          "id": 13,
+          "question": "Que fait System.out.println() ?",
+          "options": ["Lit l'entrée", "Affiche dans la console et ajoute un saut de ligne", "Affiche sans saut de ligne", "Écrit dans un fichier"],
+          "correct": 1
+        },
+        {
+          "id": 14,
+          "question": "Quelle boucle est la meilleure quand on connaît le nombre d'itérations ?",
+          "options": ["while", "do-while", "for", "foreach"],
+          "correct": 2
+        },
+        {
+          "id": 15,
+          "question": "Qu'est-ce qu'un tableau en Java ?",
+          "options": ["Une collection de types différents", "Une collection de taille fixe du même type", "Une liste redimensionnable", "Un stockage clé-valeur"],
+          "correct": 1
+        },
+        {
+          "id": 16,
+          "question": "Quel mot-clé est utilisé pour définir une constante en Java ?",
+          "options": ["const", "constant", "final", "readonly"],
+          "correct": 2
+        },
+        {
+          "id": 17,
+          "question": "Que signifie le mot-clé 'static' ?",
+          "options": ["Ne peut pas être modifié", "Appartient à la classe, pas aux instances", "Exécution plus lente", "Thread-safe"],
+          "correct": 1
+        },
+        {
+          "id": 18,
+          "question": "Comment obtenir la longueur d'un tableau nommé 'arr' ?",
+          "options": ["arr.size()", "arr.length", "arr.length()", "arr.count"],
+          "correct": 1
+        },
+        {
+          "id": 19,
+          "question": "Quel est le résultat de 10 / 3 en Java ?",
+          "options": ["3.33", "3", "3.0", "3.333"],
+          "correct": 1
+        },
+        {
+          "id": 20,
+          "question": "Quel bloc est utilisé pour gérer les exceptions ?",
+          "options": ["try-catch", "error-handler", "exception", "catch-block"],
+          "correct": 0
+        },
+        {
+          "id": 21,
+          "question": "Que fait le mot-clé 'break' dans un switch ?",
+          "options": ["Termine le programme", "Sort du bloc switch", "Passe au cas suivant", "Retourne une valeur"],
+          "correct": 1
+        },
+        {
+          "id": 22,
+          "question": "Quelle est la syntaxe correcte pour une méthode main ?",
+          "options": ["public static void main(String args)", "public void main(String[] args)", "public static void main(String[] args)", "static void main(String[] args)"],
+          "correct": 2
+        },
+        {
+          "id": 23,
+          "question": "Quelle méthode est utilisée pour comparer deux chaînes pour l'égalité ?",
+          "options": ["equals()", "==", "compare()", "same()"],
+          "correct": 0
+        },
+        {
+          "id": 24,
+          "question": "Que représente 'null' en Java ?",
+          "options": ["Zéro", "Chaîne vide", "Pas de référence d'objet", "Faux"],
+          "correct": 2
+        },
+        {
+          "id": 25,
+          "question": "Quel mot-clé est utilisé pour retourner une valeur d'une méthode ?",
+          "options": ["exit", "return", "send", "output"],
+          "correct": 1
+        },
+        {
+          "id": 26,
+          "question": "Qu'est-ce qu'un constructeur ?",
+          "options": ["Une méthode spéciale pour détruire les objets", "Une méthode spéciale pour créer/initialiser les objets", "Un type de variable", "Un type de retour"],
+          "correct": 1
+        },
+        {
+          "id": 27,
+          "question": "Quelle structure de données autorise les doublons et maintient l'ordre d'insertion ?",
+          "options": ["Set", "Map", "List", "Queue"],
+          "correct": 2
+        },
+        {
+          "id": 28,
+          "question": "À quoi fait référence le mot-clé 'this' ?",
+          "options": ["La classe parente", "L'instance d'objet courante", "Le contexte statique", "L'objet suivant"],
+          "correct": 1
+        },
+        {
+          "id": 29,
+          "question": "Quel package contient la classe Scanner pour la saisie utilisateur ?",
+          "options": ["java.util", "java.io", "java.lang", "java.input"],
+          "correct": 0
+        },
+        {
+          "id": 30,
+          "question": "Quelle est la classe wrapper pour le primitif int ?",
+          "options": ["Int", "Integer", "Int32", "Number"],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "name": "Intermédiaire",
+      "description": "Programmation orientée objet et APIs de base",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Qu'est-ce que le surcharge de méthode (overloading) ?",
+          "options": ["Même nom de méthode avec différents types de retour uniquement", "Même nom de méthode avec différents paramètres", "Réécrire une méthode parente", "Une méthode qui charge des données"],
+          "correct": 1
+        },
+        {
+          "id": 32,
+          "question": "Quelle est la différence entre == et equals() pour la comparaison de String ?",
+          "options": ["Ils sont identiques", "== compare les références, equals() compare le contenu", "equals() est plus rapide", "== compare le contenu, equals() les références"],
+          "correct": 1
+        },
+        {
+          "id": 33,
+          "question": "Que signifie l'annotation @Override ?",
+          "options": ["La méthode fait du overloading", "La méthode réécrit une méthode de la superclasse", "La méthode ne peut pas être modifiée", "La méthode est dépréciée"],
+          "correct": 1
+        },
+        {
+          "id": 34,
+          "question": "Quelle interface ArrayList implémente-t-elle ?",
+          "options": ["Set", "Map", "List", "Collection"],
+          "correct": 2
+        },
+        {
+          "id": 35,
+          "question": "Qu'est-ce qu'une interface en Java ?",
+          "options": ["Une classe avec toutes les méthodes implémentées", "Un contrat de méthodes que les classes implémentant doivent fournir", "Un type de variable", "Un package"],
+          "correct": 1
+        },
+        {
+          "id": 36,
+          "question": "Quelle est la différence entre ArrayList et LinkedList ?",
+          "options": ["Aucune différence", "ArrayList utilise un tableau, LinkedList des nœuds ; ArrayList meilleur pour l'accès aléatoire", "LinkedList est toujours plus rapide", "ArrayList ne peut pas contenir d'objets"],
+          "correct": 1
+        },
+        {
+          "id": 37,
+          "question": "À quoi fait référence le mot-clé 'super' ?",
+          "options": ["La classe courante", "La classe parente/superclasse", "Une méthode statique", "La classe principale"],
+          "correct": 1
+        },
+        {
+          "id": 38,
+          "question": "Quelle collection N'autorise PAS les éléments dupliqués ?",
+          "options": ["ArrayList", "LinkedList", "HashSet", "Vector"],
+          "correct": 2
+        },
+        {
+          "id": 39,
+          "question": "Qu'est-ce que le polymorphisme ?",
+          "options": ["Plusieurs formes - un objet peut prendre plusieurs formes via l'héritage", "Héritage multiple", "Un type de variable", "Un design pattern"],
+          "correct": 0
+        },
+        {
+          "id": 40,
+          "question": "Que retourne la méthode HashMap get() si la clé n'est pas trouvée ?",
+          "options": ["Lance une exception", "null", "0", "Chaîne vide"],
+          "correct": 1
+        },
+        {
+          "id": 41,
+          "question": "Quel est le but de la méthode hashCode() ?",
+          "options": ["Afficher l'objet", "Générer un hash pour les collections Hash", "Chiffrer les données", "Comparer les objets"],
+          "correct": 1
+        },
+        {
+          "id": 42,
+          "question": "Qu'est-ce qu'une classe abstraite ?",
+          "options": ["Une classe qui ne peut pas être étendue", "Une classe qui peut avoir des méthodes abstraites et ne peut pas être instanciée directement", "Une classe sans méthodes", "Un type de classe déprécié"],
+          "correct": 1
+        },
+        {
+          "id": 43,
+          "question": "Qu'est-ce que StringBuilder apporte par rapport à la concaténation String ?",
+          "options": ["Rien", "Meilleures performances pour des concaténations multiples", "Empreinte mémoire plus petite toujours", "Thread safety"],
+          "correct": 1
+        },
+        {
+          "id": 44,
+          "question": "Qu'est-ce qu'une exception non vérifiée (unchecked) ?",
+          "options": ["Exception qui étend Error", "Exception qui étend RuntimeException", "Toute exception dans try-catch", "Exceptions jamais lancées"],
+          "correct": 1
+        },
+        {
+          "id": 45,
+          "question": "Que fait le bloc 'finally' ?",
+          "options": ["S'exécute uniquement en cas de succès", "S'exécute uniquement en cas d'exception", "S'exécute toujours après try-catch", "S'exécute à la place de catch"],
+          "correct": 2
+        },
+        {
+          "id": 46,
+          "question": "Quelle est la différence entre StringBuffer et StringBuilder ?",
+          "options": ["Aucune différence", "StringBuffer est thread-safe, StringBuilder ne l'est pas", "StringBuilder est toujours plus rapide", "StringBuffer est pour le single-thread uniquement"],
+          "correct": 1
+        },
+        {
+          "id": 47,
+          "question": "Que requiert Collections.sort() pour les objets personnalisés ?",
+          "options": ["Rien", "Les objets doivent implémenter Comparable ou fournir un Comparator", "Les objets doivent être Serializable", "Les objets doivent être Cloneable"],
+          "correct": 1
+        },
+        {
+          "id": 48,
+          "question": "Qu'est-ce que l'encapsulation ?",
+          "options": ["Hériter de plusieurs classes", "Regrouper données et méthodes, masquer les détails d'implémentation", "Tout rendre public", "Un type de polymorphisme"],
+          "correct": 1
+        },
+        {
+          "id": 49,
+          "question": "Que garantit le mot-clé 'volatile' ?",
+          "options": ["La variable est constante", "La variable est toujours lue depuis la mémoire principale", "La variable ne peut pas être null", "La variable est thread-locale"],
+          "correct": 1
+        },
+        {
+          "id": 50,
+          "question": "À quoi sert l'opérateur diamant <> ?",
+          "options": ["Comparaison", "Inférence de type dans les génériques", "ET logique", "Opération bit à bit"],
+          "correct": 1
+        },
+        {
+          "id": 51,
+          "question": "Que retourne Optional.ofNullable() pour une valeur null ?",
+          "options": ["Lance une exception", "Optional vide", "Optional avec null", "null"],
+          "correct": 1
+        },
+        {
+          "id": 52,
+          "question": "Qu'est-ce que l'autoboxing ?",
+          "options": ["Conversion automatique du primitif vers le type wrapper", "Empaquetage d'objets dans des tableaux", "Sérialisation", "Garbage collection"],
+          "correct": 0
+        },
+        {
+          "id": 53,
+          "question": "Quel mot-clé empêche une méthode d'être réécrite ?",
+          "options": ["final", "static", "private", "sealed"],
+          "correct": 0
+        },
+        {
+          "id": 54,
+          "question": "Qu'utilise TreeMap pour ordonner les clés ?",
+          "options": ["Ordre d'insertion", "Code de hash", "Ordre naturel ou Comparator", "Ordre aléatoire"],
+          "correct": 2
+        },
+        {
+          "id": 55,
+          "question": "Qu'est-ce qu'une classe imbriquée statique ?",
+          "options": ["Une classe qui ne peut pas bouger", "Une classe imbriquée qui n'a pas besoin de l'instance externe", "Une classe dans une méthode", "Une fonctionnalité dépréciée"],
+          "correct": 1
+        },
+        {
+          "id": 56,
+          "question": "Que fait la méthode clone() ?",
+          "options": ["Supprime l'objet", "Crée une copie superficielle de l'objet", "Crée toujours une copie profonde", "Copie uniquement les références"],
+          "correct": 1
+        },
+        {
+          "id": 57,
+          "question": "Quel est le but du mot-clé default dans une interface (Java 8+) ?",
+          "options": ["Modificateur d'accès par défaut", "Fournit une implémentation par défaut de méthode", "Marque les méthodes dépréciées", "Uniquement pour les switch"],
+          "correct": 1
+        },
+        {
+          "id": 58,
+          "question": "Que retourne Stream.filter() ?",
+          "options": ["Un tableau filtré", "Un nouveau Stream avec les éléments correspondants", "Le premier élément correspondant", "Un booléen"],
+          "correct": 1
+        },
+        {
+          "id": 59,
+          "question": "Qu'est-ce que l'immuabilité de String ?",
+          "options": ["Les chaînes peuvent être modifiées sur place", "Les objets String ne peuvent pas être modifiés une fois créés", "Les chaînes sont toujours null", "Les chaînes sont en cache"],
+          "correct": 1
+        },
+        {
+          "id": 60,
+          "question": "Que fait System.gc() ?",
+          "options": ["Garantit le garbage collection", "Suggère à la JVM d'exécuter le garbage collection", "Efface toute la mémoire", "Arrête le garbage collection"],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "name": "Avancé",
+      "description": "Concurrence, design patterns et internals JVM",
+      "questions": [
+        {
+          "id": 61,
+          "question": "Quelle est la différence entre ConcurrentHashMap et Hashtable ?",
+          "options": ["Aucune différence", "ConcurrentHashMap permet une meilleure concurrence via le verrouillage par segments", "Hashtable est plus rapide", "ConcurrentHashMap n'autorise pas null"],
+          "correct": 1
+        },
+        {
+          "id": 62,
+          "question": "Que fait le mot-clé synchronized ?",
+          "options": ["Rend le code plus rapide", "Fournit l'exclusion mutuelle pour les threads accédant au bloc", "Prévient l'interblocage", "Rend la variable immuable"],
+          "correct": 1
+        },
+        {
+          "id": 63,
+          "question": "Qu'est-ce qu'un interblocage (deadlock) ?",
+          "options": ["Un type d'exception", "Deux threads ou plus qui s'attendent indéfiniment", "Quand le GC s'exécute", "Quand un thread se termine"],
+          "correct": 1
+        },
+        {
+          "id": 64,
+          "question": "À quoi sert ExecutorService ?",
+          "options": ["I/O fichier", "Gérer et exécuter des tâches async avec des pools de threads", "Connexions base de données", "Sérialisation"],
+          "correct": 1
+        },
+        {
+          "id": 65,
+          "question": "Quelle est la différence entre Runnable et Callable ?",
+          "options": ["Aucune différence", "Callable peut retourner une valeur et lancer des exceptions vérifiées", "Runnable est pour les threads uniquement", "Callable ne peut pas être utilisé avec ExecutorService"],
+          "correct": 1
+        },
+        {
+          "id": 66,
+          "question": "Qu'est-ce que le modèle mémoire Java ?",
+          "options": ["Comment les objets sont stockés", "Spécification de l'interaction des threads via la mémoire", "Algorithme de garbage collection", "Structure du tas"],
+          "correct": 1
+        },
+        {
+          "id": 67,
+          "question": "Que fournit la classe ThreadLocal ?",
+          "options": ["Variables globales", "Variables thread-locales - chaque thread a sa propre copie", "État mutable partagé", "Variables statiques"],
+          "correct": 1
+        },
+        {
+          "id": 68,
+          "question": "À quoi sert CompletableFuture ?",
+          "options": ["Code synchrone uniquement", "Programmation asynchrone et composition d'opérations async", "Remplacer les threads", "Requêtes base de données"],
+          "correct": 1
+        },
+        {
+          "id": 69,
+          "question": "Qu'est-ce que ReentrantLock ?",
+          "options": ["Un type de bloc synchronized", "Un verrou qui permet au même thread d'acquérir plusieurs fois", "Un mécanisme de prévention d'interblocage", "Un verrou lecture-écriture"],
+          "correct": 1
+        },
+        {
+          "id": 70,
+          "question": "Quel est le but du framework Fork/Join ?",
+          "options": ["Créer des processus", "Traitement parallèle diviser-pour-régner", "Joindre des tables de base de données", "Fork de dépôts"],
+          "correct": 1
+        },
+        {
+          "id": 71,
+          "question": "Que permet une référence faible (weak reference) pour le garbage collection ?",
+          "options": ["Empêche le GC", "L'objet peut être collecté quand il n'y a plus de références fortes", "Rend l'objet permanent", "Force le GC immédiat"],
+          "correct": 1
+        },
+        {
+          "id": 72,
+          "question": "Qu'est-ce que le pattern Singleton ?",
+          "options": ["Une méthode par classe", "Assure qu'une seule instance d'une classe existe", "Héritage simple", "Un thread par application"],
+          "correct": 1
+        },
+        {
+          "id": 73,
+          "question": "Qu'est-ce que le pattern Factory ?",
+          "options": ["Une classe qui fabrique des objets", "Crée des objets sans spécifier la classe exacte", "Outil de build", "Injection de dépendances"],
+          "correct": 1
+        },
+        {
+          "id": 74,
+          "question": "Que stocke le permgen/metaspace de la JVM ?",
+          "options": ["Instances d'objets", "Métadonnées des classes", "Variables locales", "Données de tableau"],
+          "correct": 1
+        },
+        {
+          "id": 75,
+          "question": "Quelle est la différence entre les drapeaux JVM -Xms et -Xmx ?",
+          "options": ["Aucune", "Taille initiale et maximale du tas", "Taille des stacks", "Nombre de threads"],
+          "correct": 1
+        },
+        {
+          "id": 76,
+          "question": "Qu'est-ce que l'analyse d'évasion (escape analysis) ?",
+          "options": ["Analyse d'erreurs", "Optimisation JVM pour allouer les objets sur la stack quand ils ne s'échappent pas de la méthode", "Détection de fuite mémoire", "Analyse des threads"],
+          "correct": 1
+        },
+        {
+          "id": 77,
+          "question": "Qu'est-ce que le problème du double verrouillage (double-checked locking) ?",
+          "options": ["Double verrouillage d'un mutex", "Bug d'implémentation Singleton avec init paresseux et synchronisation", "Deux verrous à la fois", "Blocs synchronized imbriqués"],
+          "correct": 1
+        },
+        {
+          "id": 78,
+          "question": "Que fournit AtomicInteger par rapport à int dans le code concurrent ?",
+          "options": ["Rien", "Opérations thread-safe sans verrou", "Toujours plus rapide", "Taille plus petite"],
+          "correct": 1
+        },
+        {
+          "id": 79,
+          "question": "Qu'est-ce que l'optimisation CopyOnWriteArrayList ?",
+          "options": ["Copie à la lecture", "Copie toute la liste à l'écriture ; bon pour les scénarios lecture-intensive", "Ne copie jamais", "Uniquement pour les petites listes"],
+          "correct": 1
+        },
+        {
+          "id": 80,
+          "question": "Qu'est-ce que le pattern Builder ?",
+          "options": ["Construit des fichiers JAR", "Construit des objets complexes étape par étape avec une API fluide", "Compile le code", "Assemble les chaînes"],
+          "correct": 1
+        },
+        {
+          "id": 81,
+          "question": "Pour quoi le garbage collector G1 optimise-t-il ?",
+          "options": ["Empreinte minimale", "Faible latence avec des temps de pause prévisibles", "Débit maximal uniquement", "Applications single-thread"],
+          "correct": 1
+        },
+        {
+          "id": 82,
+          "question": "Qu'est-ce que le pattern Observer ?",
+          "options": ["Surveiller les threads", "Dépendance un-vers-plusieurs : quand un change, plusieurs sont notifiés", "Inspecter les objets", "Pattern de logging"],
+          "correct": 1
+        },
+        {
+          "id": 83,
+          "question": "Que fait @FunctionalInterface imposer ?",
+          "options": ["Performance", "Exactement une méthode abstraite", "Immuabilité", "Thread safety"],
+          "correct": 1
+        },
+        {
+          "id": 84,
+          "question": "Qu'est-ce que la référence de méthode (::) en Java 8 ?",
+          "options": ["Pointeur vers une méthode", "Raccourci pour lambda qui délègue à une méthode existante", "Instruction import", "Référence de package"],
+          "correct": 1
+        },
+        {
+          "id": 85,
+          "question": "Que fait le synchroniseur Phaser ?",
+          "options": ["Élimine les threads", "Barrière de synchronisation réutilisable pour plusieurs phases", "Verrouillage de phase", "Exécution par phases uniquement"],
+          "correct": 1
+        },
+        {
+          "id": 86,
+          "question": "Quelle est la différence entre Stream.findFirst() et findAny() ?",
+          "options": ["Aucune différence", "findFirst() retourne le premier dans l'ordre de rencontre ; findAny() peut retourner n'importe lequel pour le parallélisme", "findAny() est toujours plus rapide", "findFirst() est pour le parallèle uniquement"],
+          "correct": 1
+        },
+        {
+          "id": 87,
+          "question": "Que vérifie la JVM pendant la vérification du bytecode ?",
+          "options": ["Code source", "Sécurité du bytecode, sécurité des types, pas de dépassement de pile", "Performance", "Allocation mémoire"],
+          "correct": 1
+        },
+        {
+          "id": 88,
+          "question": "Qu'est-ce que le pattern Strategy ?",
+          "options": ["Stratégie business", "Définit une famille d'algorithmes, les rend interchangeables", "Stratégie de déploiement", "Stratégie de test"],
+          "correct": 1
+        },
+        {
+          "id": 89,
+          "question": "Que garantit try-with-resources ?",
+          "options": ["Exécution plus rapide", "Fermeture automatique des ressources AutoCloseable", "Pool de ressources", "Pas d'exceptions"],
+          "correct": 1
+        },
+        {
+          "id": 90,
+          "question": "Qu'est-ce que le pattern Decorator ?",
+          "options": ["Ajoute du comportement dynamiquement en enveloppant l'objet", "Décorer l'UI", "Ajouter des commentaires", "Formater la sortie"],
+          "correct": 0
+        }
+      ]
+    }
+  ]
+}
